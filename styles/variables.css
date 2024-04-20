@@ -2,11 +2,9 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-.page{
+:root{
   --theme-color: #000028;
   --title-color: #DB00FF;
-  --accent-color: #FF0070;
-  --pading-baze: 0 10px;
-  
+  --accent-color: #FF0070; 
 }
 
