@@ -25,15 +25,43 @@
 
 .page{
   box-sizing: border-box;
-  width: 375px;
+  min-width: 375px;
   margin: 0 auto;
 }
 .header{
   box-sizing: border-box;
   background-color: var(--theme-color);
   width: 100%;
-  padding: clamp(0.625rem, 0.029rem + 2.545vw, 1.25rem);
+  
 }
+@media(min-width:375px),(max-width <= 768px){
+   .header{
+    height: clamp(41.75rem, 20.5191rem + 90.5852vw, 64rem);
+    padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+   }
+   .header__description{
+    width: clamp(22.1875rem, 21.6508rem + 2.2901vw, 22.75rem);
+   }
+   .header__theme-menu{
+    margin-block-start: 0px;
+   }
+   .header__title-container{
+    margin-block-end: calm(3.5rem, 1.5916rem + 8.1425vw, 5.5rem);
+   }
+   .header__title{
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    margin-block-end: clamp(2.9375rem, -0.2233rem + 13.486vw, 6.25rem);
+
+   }
+   .header__span{
+    margin-right: 78px;
+    margin-left: -20px;
+  }
+   
+
+
+}
+
 .decorated-zone {
   width: 100%; 
   display: grid;
@@ -59,7 +87,7 @@
 }
 
 .header__title-container{
-  container-type: inline-size;
+  /*container-type: inline-size;*/
   display: grid;
   gap: 10px;
   margin-bottom: 56px;
@@ -69,12 +97,12 @@
   font-size: 116px;
   line-height: 82%;
   color: var(--title-color);
-  text-shadow: 5px 5px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
   text-transform: lowercase;
   font-family: "IBM Plex mono",serif;
   font-weight: bold;
-  margin-top: 65px;
-  margin-bottom: 47px;
+  margin-block-start: 65px;
+  /*margin-bottom: 47px;*/
 }
 .header__span{
   display: inline-block;
@@ -82,11 +110,12 @@
 .header__description{
   box-sizing: border-box;
   background-color: var(--accent-color);
-  width: 100%;
+  height: 117px;
   font-size: 18px;
   font-family: "IBM Plex mono",serif;
   font-weight: bold;
   color: var(--theme-color);
+  justify-self: flex-end;
  
 }
 .header__record{
@@ -109,7 +138,7 @@
 
 
 .header__theme-menu {
-  margin-top: 39px;
+  margin-block-start: 39px;
 }
 .header__theme-menu-list {
   display: grid;
@@ -147,14 +176,14 @@
   width: 100%;
   padding: 0 10px;
  
-  padding-top: 43px;
-  padding-bottom: 40px;
+  padding-block-start: 43px;
+  padding-block-end: 40px;
 }
 .content__wrapper{
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin-bottom: 49px;
+  margin-block-end: 49px;
 }
 .content__section {
 }
@@ -167,8 +196,8 @@
 }
 .content__description {
   background-color: var(--accent-color);
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-block-start: 20px;
+  margin-block-end: 10px;
   font-family: 'IBM Plex mono', sans-serif;
   font-weight: bold;
   font-size: 18px;
@@ -226,8 +255,6 @@
   text-transform: lowercase;
   font-family: "IBM Plex mono",serif;
   font-weight: bold;
-  margin-top: 65px;
-  margin-bottom: 47px;
 }
 
 
