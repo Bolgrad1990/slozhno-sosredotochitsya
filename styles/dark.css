@@ -146,11 +146,15 @@
   background-color: var(--theme-color);
   width: 100%;
   padding: 0 10px;
+ 
+  padding-top: 43px;
+  padding-bottom: 40px;
+}
+.content__wrapper{
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding-top: 43px;
-  padding-bottom: 40px;
+  margin-bottom: 49px;
 }
 .content__section {
 }
@@ -168,6 +172,7 @@
   font-family: 'IBM Plex mono', sans-serif;
   font-weight: bold;
   font-size: 18px;
+  line-height: 131%;
   color: var(--theme-color);
 }
 .content__text {
