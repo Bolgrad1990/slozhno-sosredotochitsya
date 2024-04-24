@@ -54,11 +54,9 @@
 
    }
    .header__span{
-    margin-right: 78px;
-    margin-left: -20px;
+    margin-inline-end: 78px;
+    margin-inline-start: -20px;
   }
-   
-
 
 }
 
@@ -90,7 +88,7 @@
   /*container-type: inline-size;*/
   display: grid;
   gap: 10px;
-  margin-bottom: 56px;
+  /*margin-bottom: 56px;*/
 
 }
 .header__title{
@@ -175,7 +173,6 @@
   background-color: var(--theme-color);
   width: 100%;
   padding: 0 10px;
- 
   padding-block-start: 43px;
   padding-block-end: 40px;
 }
@@ -194,6 +191,12 @@
   font-size: 18px;
 
 }
+@media(min-width >= 768px){
+  .content__group-text-row{
+     background-color: #fff;
+  }
+}
+
 .content__description {
   background-color: var(--accent-color);
   margin-block-start: 20px;
@@ -256,6 +259,31 @@
   font-family: "IBM Plex mono",serif;
   font-weight: bold;
 }
+
+@media(min-width:768px){
+  .group-rows{
+    display: grid;
+    grid-template-columns: 235px auto;
+    gap: 20px;
+    padding-inline-start: 10px; 
+    padding-inline-end: 10px; 
+  } 
+  .group-rows:last-child{
+    margin-block-end: 10px;
+  }
+  .group-columns{
+    padding-inline-start: 10px; 
+    padding-inline-end: 10px; 
+  }
+  .title-rows{
+    margin-block-start: 18px;
+  }
+  .title-columns{
+    margin-block-start: 28px;
+    width: 200px;
+  }
+}
+
 
 
 
