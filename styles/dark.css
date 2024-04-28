@@ -116,20 +116,27 @@
 .header__theme-menu-button {
   color: var(--button-color);
   background-color: transparent;
-  border: 1px solid var(--button-color);
   padding: 0px 13px 2px 13px;
   font-family: "IBM Plex mono", serif;
   font-size: 18px;
   text-transform: lowercase;
+  border: none;
+
 }
+
+.header__theme-menu-button:hover{
+  border: 1px solid var(--button-color);
+}
+
 /*.header__theme-menu-button_type_light {
-}
-.header__theme-menu-button_active {
 }
 .header__theme-menu-button_type_auto {
 }
 .header__theme-menu-button_type_dark {
 }*/
+.header__theme-menu-button_active {
+  pointer-events: none;
+}
 
 /*
  content styles
