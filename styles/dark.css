@@ -121,10 +121,9 @@
   font-size: 18px;
   text-transform: lowercase;
   border: none;
-
 }
 
-.header__theme-menu-button:hover{
+.header__theme-menu-button:hover {
   border: 1px solid var(--button-color);
 }
 
