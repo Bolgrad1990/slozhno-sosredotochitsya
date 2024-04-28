@@ -10,13 +10,13 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --theme-color: #000028;
-  --title-color: #DB00FF;
-  --accent-color: #FF0070;
-  --main-text-color: #F1B2CE;
-  --description-theme-color: #FF0070;
-  --section-title-color: #FF0070;
-  --description-title-color: #000028; 
-  --button-color:  #FF0070;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --main-text-color: #f1b2ce;
+  --description-theme-color: #ff0070;
+  --section-title-color: #ff0070;
+  --description-title-color: #000028;
+  --button-color: #ff0070;
 }
 
 .page {
@@ -83,7 +83,7 @@
   font-family: "IBM Plex mono", serif;
   font-weight: bold;
   color: var(--description-title-color);
-  justify-self: flex-end; 
+  justify-self: flex-end;
   margin-block-end: 54px;
 }
 .header__record {
