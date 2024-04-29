@@ -178,6 +178,10 @@
   font-size: 18px;
   line-height: 130%;
 }
+.content__link{
+  text-decoration: none;
+  text-shadow: 3px 3px 0 var(--description-theme-color);
+}
 
 .content__images {
   width: 100%;
