@@ -11,7 +11,6 @@
   background-attachment: fixed;
   min-width: 375px;
   margin: 0 auto;
-  background-image: var(--background-image);
 }
 .header {
   box-sizing: border-box;
@@ -162,7 +161,6 @@
   border-block-end: 1px solid var(--button-hover);
 }
 .content__link:focus {
-  outline: none;
   outline: 1px solid var(--button-focus);
 }
 
@@ -170,9 +168,6 @@
 .content__description {
   color: var(--description-title-color);
   background-color: var(--description-theme-color);
-}
-.header__theme-menu-button {
-  color: var(--button-color);
 }
 .content__description_normal {
   font-weight: normal;
