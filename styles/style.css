@@ -54,6 +54,7 @@
   font-weight: bold;
   color: var(--description-title-color);
   justify-self: flex-end;
+  align-self: flex-start;
   margin-block-end: 74px;
 }
 .header__record {
