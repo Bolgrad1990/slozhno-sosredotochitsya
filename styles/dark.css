@@ -19,12 +19,9 @@
   --description-title-color: #000028;
   --button-color: #ff0070;
   --button-active: #ff0070;
-  --button-hover: #ff8dcb;
-  --button-focus: #ff0070;
+  --button-hover: rgb(250, 0, 112, 40%);
+  --button-focus: #353430;
   --font-family: "IBM Plex mono", monospace;
-}
-.theme_dark .page {
-  background-image: var(--background-image);
 }
 
 .theme_dark .header__record {

@@ -5,8 +5,9 @@
 .page {
   background-color: var(--theme-color);
   background-image: var(--background-image);
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   box-sizing: border-box;
   background-attachment: fixed;
   min-width: 375px;

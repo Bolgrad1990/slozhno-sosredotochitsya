@@ -23,9 +23,6 @@
   --button-focus: #353430;
   --font-family: "IBM Plex mono", monospace;
 }
-.theme_light .page {
-  background-image: var(--background-image);
-}
 
 .theme_light .header__record {
   display: none;
