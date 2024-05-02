@@ -339,8 +339,7 @@
     margin: 0;
   }
   .content__wrapper {
-    gap: 44px;
-    margin-block-end: 78px;
+    margin-block-end: 80px;
   }
   .group-rows {
     grid-template-columns: 315px auto;
@@ -350,6 +349,9 @@
   }
   .content__description {
     margin-block-start: 17px;
+  }
+  .content__description_normal {
+    margin-block-start: 19px;
   }
   .group-columns-wrapper {
     display: grid;
@@ -376,9 +378,6 @@
     padding-inline-start: 20px;
     padding-inline-end: 20px;
   }
-}
-
-@media (min-width: 1024px) {
   .footer__title {
     font-size: 157px;
   }
