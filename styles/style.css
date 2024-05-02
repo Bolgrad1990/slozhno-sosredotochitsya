@@ -48,7 +48,6 @@
 .header__description {
   box-sizing: border-box;
   background-color: var(--description-theme-color);
-  align-self: center;
   font-size: 18px;
   font-family: var(--font-family);
   font-weight: bold;
