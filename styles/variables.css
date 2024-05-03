@@ -15,5 +15,6 @@
   --button-active: #ff0070;
   --button-hover: #ff8dcb;
   --button-focus: #ff0070;
+  --link-focus: #353430;
   --font-family: "IBM Plex mono", monospace;
 }

@@ -21,6 +21,7 @@
   --button-active: #353430;
   --button-hover: rgb(50, 49, 45, 0.4);
   --button-focus: #353430;
+  --link-focus: #353430;
   --font-family: "IBM Plex mono", monospace;
 }
 
@@ -40,10 +41,10 @@
     --description-title-color: #353430;
     --button-color: #353430;
     --button-active: #353430;
-    --button-focus: #353430;
     --button-hover: rgb(50, 49, 45, 0.4);
-
-    --font-family: "IBM Plex mono", serif;
+    --button-focus: #353430;
+    --link-focus: #353430;
+    --font-family: "IBM Plex mono", monospace;
   }
   .header__record {
     display: none;

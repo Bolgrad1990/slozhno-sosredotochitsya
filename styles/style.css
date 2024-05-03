@@ -162,7 +162,7 @@
   border-block-end: 1px solid var(--button-hover);
 }
 .content__link:focus {
-  outline: 1px solid var(--button-focus);
+  outline: 1px solid var(--link-focus);
 }
 
 .header__description,
